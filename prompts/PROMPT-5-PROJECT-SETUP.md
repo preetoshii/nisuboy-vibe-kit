@@ -8,48 +8,48 @@ Using our final spec (particularly the Development Principles section), create t
 
 ## 1. AGENTS.md (root directory)
 
-This is the **single source of truth** for how AI agents should work on this project. Following best practices from the emerging AGENTS.md standard (see github.com/openai/agents.md), it should include:
+This is the **single source of truth** for how AI agents should work on this project.
+
+### Critical formatting guidance:
+
+**Keep it concise — aim for under 150 lines total.** AI agents process this file on every interaction, so brevity matters for efficiency.
+
+**EXCEPTION: Development Principles should be included IN FULL.** These are too important to summarize — the nuance and examples are what make them actionable. This is the one section where length is justified.
+
+**Everything else: brief, actionable, no fluff.** Use bullet points. Use code blocks for commands. Cut anything that isn't directly useful.
 
 ### Required sections:
 
-**Development Principles**
-- The development principles we established for this project (from the spec)
-- Any project-specific values or orientations worth emphasizing
+**Development Principles** (FULL — do not summarize)
+- Include the complete development principles from the spec
+- Keep the examples and the "DO/DON'T/ASK" format — these are what make them actionable
+- Any project-specific additions or modifications
 
-**Project Overview**
-- Brief description of what we're building and why
-- Key features or goals
+**Project Overview** (2-4 sentences max)
+- What we're building
+- Why it exists
 
-**Tech Stack**
-- Languages, frameworks, and key dependencies
-- Why these choices were made (brief context)
+**Tech Stack** (bullet list)
+- Languages and frameworks
+- Key dependencies
+- One-line "why" for non-obvious choices
 
-**Project Structure**
-- High-level overview of how the codebase is organized
-- Purpose of key directories
+**Project Structure** (bullet list)
+- Key directories and their purpose
+- Only include what's helpful, not every folder
 
-**Development Commands**
-- How to install dependencies
-- How to run the dev server
-- How to build for production
-- How to run tests
+**Commands** (code blocks)
+```bash
+npm install     # install dependencies
+npm run dev     # start dev server
+npm run build   # production build
+npm test        # run tests
+```
 
-**Code Style & Conventions**
+**Code Conventions** (bullet list)
 - Naming conventions
 - File organization patterns
-- Any linters/formatters in use
-
-**Testing Guidelines**
-- Testing framework
-- How to run tests
-- What should be tested
-
-### Best practices to follow:
-
-- **Be specific**: Use exact commands, not vague descriptions
-- **Use code blocks**: Wrap all commands in backticks
-- **Explain the why**: Brief context helps agents make better decisions
-- **Keep it focused**: This isn't a novel — include what's useful, skip what's not
+- Linting/formatting tools
 
 ---
 
@@ -75,17 +75,11 @@ Read AGENTS.md for all project guidelines, principles, and conventions.
 
 ## Why this structure?
 
-**Single source of truth.** AGENTS.md is becoming the standard file that AI coding tools look for. By putting everything there and having .cursorrules and CLAUDE.md point to it, we:
+**Single source of truth.** By putting everything in AGENTS.md and having .cursorrules and CLAUDE.md point to it, we:
 
 - Avoid maintaining duplicate guidance across files
 - Stay compatible with multiple AI tools (Cursor, Claude Code, and future tools)
 - Keep everything in one place that's easy to update
-
----
-
-## Note on monorepos
-
-If the project grows into a monorepo with multiple packages/apps, you can add additional AGENTS.md files in subdirectories with context specific to that part of the codebase. AI agents will use the closest AGENTS.md to the code they're working on.
 
 ---
 
