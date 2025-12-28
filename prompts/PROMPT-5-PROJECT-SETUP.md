@@ -4,35 +4,89 @@ Before we start on the first implementation milestone, let's set up the project 
 
 Using our final spec (particularly the Development Principles section), create the following files:
 
-## 1. AGENTS.md
+---
 
-This is the single source of truth for how AI agents should work on this project. It should include:
+## 1. AGENTS.md (root directory)
 
+This is the **single source of truth** for how AI agents should work on this project. Following best practices from the emerging AGENTS.md standard (see github.com/openai/agents.md), it should include:
+
+### Required sections:
+
+**Development Principles**
 - The development principles we established for this project (from the spec)
-- Any project-specific guidance, conventions, or constraints worth knowing
-- Key context an AI would need to make good decisions
+- Any project-specific values or orientations worth emphasizing
 
-Keep it focused and useful — not a wall of text, but enough that an AI dropping into this project understands how to operate.
+**Project Overview**
+- Brief description of what we're building and why
+- Key features or goals
 
-## 2. .cursorrules
+**Tech Stack**
+- Languages, frameworks, and key dependencies
+- Why these choices were made (brief context)
 
-This file should simply point to AGENTS.md:
+**Project Structure**
+- High-level overview of how the codebase is organized
+- Purpose of key directories
+
+**Development Commands**
+- How to install dependencies
+- How to run the dev server
+- How to build for production
+- How to run tests
+
+**Code Style & Conventions**
+- Naming conventions
+- File organization patterns
+- Any linters/formatters in use
+
+**Testing Guidelines**
+- Testing framework
+- How to run tests
+- What should be tested
+
+### Best practices to follow:
+
+- **Be specific**: Use exact commands, not vague descriptions
+- **Use code blocks**: Wrap all commands in backticks
+- **Explain the why**: Brief context helps agents make better decisions
+- **Keep it focused**: This isn't a novel — include what's useful, skip what's not
+
+---
+
+## 2. .cursorrules (root directory)
+
+Keep this minimal — just point to AGENTS.md:
 
 ```
-Read AGENTS.md for all project guidelines and principles.
-```
-
-## 3. CLAUDE.md
-
-Same as above — point to AGENTS.md:
-
-```
-Read AGENTS.md for all project guidelines and principles.
+Read AGENTS.md for all project guidelines, principles, and conventions.
 ```
 
 ---
 
-The goal is one source of truth (AGENTS.md) that both Cursor and Claude Code respect, so we're not maintaining duplicate guidance across files.
+## 3. CLAUDE.md (root directory)
 
-Once these are in place, we're ready to start building.
+Same approach — point to AGENTS.md:
 
+```
+Read AGENTS.md for all project guidelines, principles, and conventions.
+```
+
+---
+
+## Why this structure?
+
+**Single source of truth.** AGENTS.md is becoming the standard file that AI coding tools look for. By putting everything there and having .cursorrules and CLAUDE.md point to it, we:
+
+- Avoid maintaining duplicate guidance across files
+- Stay compatible with multiple AI tools (Cursor, Claude Code, and future tools)
+- Keep everything in one place that's easy to update
+
+---
+
+## Note on monorepos
+
+If the project grows into a monorepo with multiple packages/apps, you can add additional AGENTS.md files in subdirectories with context specific to that part of the codebase. AI agents will use the closest AGENTS.md to the code they're working on.
+
+---
+
+Once these files are in place, we're ready to start building.
