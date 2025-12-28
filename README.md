@@ -1,20 +1,42 @@
 # Nisuboy Dev System
 
-A prompt-based system for turning rough voice transcripts into implementation-ready specs.
+**A shared prompt library for turning ideas into reality.**
 
-## Flow
+This repo is our version of a Google Drive folder — a place to store reusable prompts and principles we copy-paste when starting new projects. The goal: reduce the friction between having an idea and actually building it.
 
-1. **Record a voice transcript** — You and your collaborator explain your idea out loud, capturing every nuance
-2. **PROMPT 1** — Generate initial vision spec from the transcript
-3. **PROMPT 2** (optional, repeatable) — Revise based on your notes
-4. **PROMPT 3** — Q&A session to resolve implementation questions
-5. **PROMPT 4** — Integrate everything into final implementation-ready spec
+We're not engineers. We're two brothers who vibe-code our way through projects with AI assistance. These prompts help us go from messy voice recordings to implementation-ready specs without losing the nuances of what we actually want.
 
-## Files
+---
 
-- `PRINCIPLES.md` — Base development principles (referenced in prompts)
-- `prompts/PROMPT-1-VISION.md` — Initial vision spec generation
-- `prompts/PROMPT-2-REVISION.md` — Revision template
-- `prompts/PROMPT-3-QA.md` — Implementation Q&A session
-- `prompts/PROMPT-4-FINAL-SPEC.md` — Final spec compilation
+## What's in here
 
+### `PRINCIPLES.md`
+Our base development principles. These get referenced in the prompts and adapted per-project to keep builds focused and intentional.
+
+### `prompts/`
+A 4-step prompt flow for turning rough ideas into clear specs:
+
+| Prompt | Purpose |
+|--------|---------|
+| **PROMPT-1-VISION** | Paste a voice transcript → get a clean vision doc |
+| **PROMPT-2-REVISION** | Add notes → refine the spec (repeat as needed) |
+| **PROMPT-3-QA** | AI asks you implementation questions one by one |
+| **PROMPT-4-FINAL-SPEC** | Compile everything into an implementation-ready spec |
+
+---
+
+## How we use it
+
+1. Record ourselves talking through an idea (messy, redundant, stream-of-consciousness — that's fine)
+2. Transcribe it
+3. Copy-paste **PROMPT 1** into Claude/ChatGPT with the transcript
+4. Iterate with **PROMPT 2** if needed
+5. Run through **PROMPT 3** Q&A to nail down implementation details
+6. Use **PROMPT 4** to generate the final spec
+7. Hand the spec to Cursor (or whatever) and start building
+
+---
+
+## Why GitHub?
+
+It's just a convenient place to store text files that we both can access and update. Nothing fancy.
