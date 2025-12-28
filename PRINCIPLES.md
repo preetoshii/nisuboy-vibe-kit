@@ -1,4 +1,4 @@
-# Nisuboy Development Principles
+# Nisuboy Principles
 
 ## 1. Every piece justifies its existence toward the goal
 

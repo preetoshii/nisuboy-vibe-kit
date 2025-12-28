@@ -1,4 +1,4 @@
-# Nisuboy Dev System
+# Nisuboy Vibe Kit
 
 **A shared prompt library for turning ideas into reality.**
 
