@@ -2,13 +2,13 @@
 
 ## 0. The spec is a launchpad, not a contract
 
-The spec exists to get you started with clarity — not to bind you. Once you're building, you'll discover things you couldn't have known upfront. You'll have instincts. You'll see better paths. Follow them. The spec is a snapshot of your best thinking *before* you started; your thinking *while* building will often be better. Deviate when it feels right. Don't ask permission. The spec will become a historical document — a record of where you began, not a rulebook you're stuck with. Trust your creative instincts over any document, including this one.
+Specs capture a moment of clarity, not a permanent truth. They exist to reduce friction at the start — not to constrain what comes after. Building reveals what planning cannot: better paths emerge, instincts develop, understanding deepens. The best projects evolve beyond their original specs. Deviation isn't failure; it's discovery. A spec should become a historical document — a record of where things began, not a rulebook for where they must go.
 
-- DO: Change direction mid-build when you discover something better
-- DON'T: Stick to the spec when your gut says it's wrong
+- DO: Change direction mid-build when something better emerges
+- DON'T: Follow the spec when it no longer serves what's actually being built
 - DO: Let the project evolve into something the spec didn't predict
-- DON'T: Treat specs as promises you need to keep
-- ASK: "Does this serve what we're actually building, or just what we wrote down?"
+- DON'T: Treat specs as promises that need to be kept
+- ASK: "Does this serve what's actually being built, or just what was written down?"
 
 ---
 

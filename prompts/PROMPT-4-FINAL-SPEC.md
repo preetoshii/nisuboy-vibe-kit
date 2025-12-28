@@ -32,5 +32,5 @@ Don't fill in details we didn't discuss — if we didn't decide it, don't invent
 
 ---
 
-**A reminder as you finish:** This spec is a launchpad, not a contract. It captures your best thinking *before* building — but your thinking *while* building will often be better. Deviate when it feels right. Let the project evolve. The spec will become a historical document, and that's exactly what it should be.
+**At the end of the spec, include a brief note** reminding future readers (human or AI) that this spec is a launchpad, not a contract. It captures the best thinking *before* building — but thinking *while* building will often be better. The project should evolve beyond this document as better paths emerge.
 
