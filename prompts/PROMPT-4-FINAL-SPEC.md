@@ -30,3 +30,7 @@ There's a spectrum:
 
 Don't fill in details we didn't discuss — if we didn't decide it, don't invent it. The developer or AI agent is better positioned to navigate those choices in context.
 
+---
+
+**A reminder as you finish:** This spec is a launchpad, not a contract. It captures your best thinking *before* building — but your thinking *while* building will often be better. Deviate when it feels right. Let the project evolve. The spec will become a historical document, and that's exactly what it should be.
+

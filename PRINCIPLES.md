@@ -1,5 +1,17 @@
 # Nisuboy Principles
 
+## 0. The spec is a launchpad, not a contract
+
+The spec exists to get you started with clarity — not to bind you. Once you're building, you'll discover things you couldn't have known upfront. You'll have instincts. You'll see better paths. Follow them. The spec is a snapshot of your best thinking *before* you started; your thinking *while* building will often be better. Deviate when it feels right. Don't ask permission. The spec will become a historical document — a record of where you began, not a rulebook you're stuck with. Trust your creative instincts over any document, including this one.
+
+- DO: Change direction mid-build when you discover something better
+- DON'T: Stick to the spec when your gut says it's wrong
+- DO: Let the project evolve into something the spec didn't predict
+- DON'T: Treat specs as promises you need to keep
+- ASK: "Does this serve what we're actually building, or just what we wrote down?"
+
+---
+
 ## 1. Every piece justifies its existence toward the goal
 
 Everything you build must earn its place by directly serving what you're trying to accomplish. This isn't about thinking small—you can be wildly ambitious. It's about not building extra. If you're making a feature, you build exactly what that feature needs to work, not bonus stuff that seems cool but isn't required. Before something gets built, it should be able to answer: "Why do I need to exist for this to succeed?" If it can't answer that, it doesn't get built. Ambition is welcome. Waste is not.

@@ -6,6 +6,8 @@ This repo is our version of a Google Drive folder — a place to store reusable 
 
 We're not engineers. We're two brothers who vibe-code our way through projects with AI assistance. These prompts help us go from messy voice recordings to implementation-ready specs without losing the nuances of what we actually want.
 
+**One thing to remember:** The spec is just a starting point. It helps you launch with clarity, but it's not a contract. Once you're building, trust your instincts — deviate, evolve, follow your creativity. The spec will become a historical document, and that's exactly what it should be. The soul of the project comes from you, not from any process.
+
 ---
 
 ## What's in here
