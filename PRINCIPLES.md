@@ -1,21 +1,5 @@
 # Nisuboy Principles
 
-## 0. The spec is a launchpad, not a contract
-
-Starting is the hardest part. Specs exist to reduce that friction — to get from idea to **first life**: the point where the thing is alive, working end-to-end, usable. Not polished, not complete, but *breathing*.
-
-Specs plan to first life, not the whole journey. Once it's alive, further direction emerges from building — informed by actually using the thing, not by planning in a vacuum. Building reveals what planning cannot: better paths emerge, instincts develop, understanding deepens.
-
-The best projects evolve beyond their original specs. Deviation isn't failure; it's discovery. A spec should become a historical document — a record of where things began, not a rulebook for where they must go.
-
-- DO: Change direction mid-build when something better emerges
-- DON'T: Follow the spec when it no longer serves what's actually being built
-- DO: Let the project evolve into something the spec didn't predict
-- DON'T: Treat specs as promises that need to be kept
-- ASK: "Does this serve what's actually being built, or just what was written down?"
-
----
-
 ## 1. Every piece justifies its existence toward the goal
 
 Everything you build must earn its place by directly serving what you're trying to accomplish. This isn't about thinking small—you can be wildly ambitious. It's about not building extra. If you're making a feature, you build exactly what that feature needs to work, not bonus stuff that seems cool but isn't required. Before something gets built, it should be able to answer: "Why do I need to exist for this to succeed?" If it can't answer that, it doesn't get built. Ambition is welcome. Waste is not.
