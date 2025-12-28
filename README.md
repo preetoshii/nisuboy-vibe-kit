@@ -29,11 +29,11 @@ A 4-step prompt flow for turning rough ideas into clear specs:
 
 1. Record ourselves talking through an idea (messy, redundant, stream-of-consciousness — that's fine)
 2. Transcribe it
-3. Copy-paste **PROMPT 1** into Claude/ChatGPT with the transcript
+3. Copy-paste **PROMPT 1** into Cursor with the transcript
 4. Iterate with **PROMPT 2** if needed
 5. Run through **PROMPT 3** Q&A to nail down implementation details
 6. Use **PROMPT 4** to generate the final spec
-7. Hand the spec to Cursor (or whatever) and start building
+7. Start building
 
 ---
 
