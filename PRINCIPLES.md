@@ -2,7 +2,11 @@
 
 ## 0. The spec is a launchpad, not a contract
 
-Specs capture a moment of clarity, not a permanent truth. They exist to reduce friction at the start — not to constrain what comes after. Building reveals what planning cannot: better paths emerge, instincts develop, understanding deepens. The best projects evolve beyond their original specs. Deviation isn't failure; it's discovery. A spec should become a historical document — a record of where things began, not a rulebook for where they must go.
+Starting is the hardest part. Specs exist to reduce that friction — to get from idea to **first life**: the point where the thing is alive, working end-to-end, usable. Not polished, not complete, but *breathing*.
+
+Specs plan to first life, not the whole journey. Once it's alive, further direction emerges from building — informed by actually using the thing, not by planning in a vacuum. Building reveals what planning cannot: better paths emerge, instincts develop, understanding deepens.
+
+The best projects evolve beyond their original specs. Deviation isn't failure; it's discovery. A spec should become a historical document — a record of where things began, not a rulebook for where they must go.
 
 - DO: Change direction mid-build when something better emerges
 - DON'T: Follow the spec when it no longer serves what's actually being built
