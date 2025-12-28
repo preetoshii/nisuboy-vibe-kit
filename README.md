@@ -22,6 +22,7 @@ A 4-step prompt flow for turning rough ideas into clear specs:
 | **PROMPT-2-REVISION** | Add notes → refine the spec (repeat as needed) |
 | **PROMPT-3-QA** | AI asks you implementation questions one by one |
 | **PROMPT-4-FINAL-SPEC** | Compile everything into an implementation-ready spec |
+| **PROMPT-5-PROJECT-SETUP** | Set up AGENTS.md and workspace before building |
 
 ---
 
@@ -33,7 +34,8 @@ A 4-step prompt flow for turning rough ideas into clear specs:
 4. Iterate with **PROMPT 2** if needed
 5. Run through **PROMPT 3** Q&A to nail down implementation details
 6. Use **PROMPT 4** to generate the final spec
-7. Start building
+7. Use **PROMPT 5** to set up AGENTS.md and workspace files
+8. Start building
 
 ---
 
