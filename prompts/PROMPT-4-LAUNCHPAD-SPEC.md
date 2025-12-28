@@ -12,7 +12,18 @@ Don't fundamentally restructure what we already have unless we really need to â€
 - Data flow / how data moves through the system (for core functionality)
 - Interfaces / APIs (if relevant to first life)
 - Launchpad Milestones (see note below)
+- Scope Definition (see note below)
 - Anything else necessary to reach first life â€” without over-specifying to the point where it discourages intelligent judgment on implementation.
+
+**Regarding Scope Definition:**
+
+Include a simple **Scope** table that makes it clear what's in vs. out:
+
+| **First Life** | **Future** |
+|----------------|------------|
+| (what we're building now) | (ideas we discussed but aren't building yet) |
+
+Carry forward anything from the "Beyond First Life" section into the Future column.
 
 **Regarding Launchpad Milestones:**
 

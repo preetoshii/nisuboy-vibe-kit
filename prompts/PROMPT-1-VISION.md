@@ -8,5 +8,7 @@ Your task: First, DEEPLY understand and analyze the idea. Then create an INITIAL
 
 This document should also include a DEVELOPMENT PRINCIPLES section close to the top, that uses our development principles mentioned in PRINCIPLES.md. Then, based on what you pick up from our transcript, adjust with project-specific principles or orientations that emerged from what we emphasized or kept returning to — things like our motivations, fears, or preferences that should guide the modification, addition of, or subtraction of elements of these base principles for this particular project.
 
+**Regarding future ideas and open questions:** Our transcripts will inevitably contain future-thinking ideas and unresolved questions. Capture these in a **"Beyond First Life"** section at the end — don't let them dilute the core vision, but don't lose them either.
+
 So, as mentioned, this first pass is for capturing the vision — the what, the why, and the principles guiding it. Once we've reviewed and refined this together, a later step is where we'll tackle open questions, tech stack, and more detailed implementation. For now, we are focusing on vision.
 
